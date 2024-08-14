@@ -16,6 +16,7 @@ cd build.4
 #GIT_CURL_VERBOSE=1 && /bin/bash -x ../vlc.4/extras/package/win32/build.sh -a x86_64 -p > build.log 2>&1
 
 #GIT_CURL_VERBOSE=1 && /bin/bash -x ../vlc.4/extras/package/win32/build.sh -a x86_64 -r -i u > build.log 2>&1
-GIT_CURL_VERBOSE=1 && /bin/bash -x ../vlc.4/extras/package/win32/build.sh -a x86_64 > build.log 2>&1 
+GIT_CURL_VERBOSE=1 && /bin/bash -x ../vlc.4/extras/package/win32/build.sh -a x86_64 -r -i u
+#GIT_CURL_VERBOSE=1 && /bin/bash -x ../vlc.4/extras/package/win32/build.sh -a x86_64 > build.log 2>&1 
 #cd win64; make package-win32-release
 #make package-win32-base
